@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    height: 80px;
+    justify-content:space-between ;
+    padding:25px 50px; 
+
+}
+
+.content{
+    display: flex;
+    gap: 50px;
+}
+
+.ban{
+    padding: 100px;
+}
+
+.container .banner{
+    width: 100%;
+    height: 100%;
+    max-height: 624px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .Content{
+    width: 100%;
+    max-width: 557px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner .Content .content1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+
+.container .banner .Content .content2{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    color: #2D2D2D;
+}
+
+.container .banner .Content .content3{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+
+.container .banner .bannerImage img{
+    width: 495px;
+    height: 424px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: #000000;
+    line-height: 24px;
+    font-weight: 500;
+    transition: all 0.1s linear;
+}  
+
+
+
+
+
+
+.banner2{
+    display: flex;
+    gap: 125px;
+    text-align: center;
+    padding: 180px 140.15px;
+}
+
+.banner2 img{
+    width: 130px;
+    height: 130px;
+}
+
+.banner2 h3{
+    margin-top: 56px;
+    margin-bottom: 19px;
+}
+
+.banner3{
+    display: flex;
+    gap: 125px;
+    text-align: center;
+    padding: 180px 140.15px;
+}
+
+.banner3 img{
+    width: 130px;
+    height: 130px;
+}
+
+.banner3 h3{
+    margin-top: 56px;
+    margin-bottom: 19px;
+}
+
+.listImg{
+    display: flex;
+
+}
+
+.listImg img{
+    width: 315px;
+    height: 315px;
+}
+
+.listImg1{
+    display: flex;
+    gap: 67.5px;
+    margin-bottom: 60px;
+}
+
+.listImg2{
+    display: flex;
+    gap: 67.5px;
+}
+
+.container1{
+    padding: 100px 122px;
+
+}
+
+.listImgs{
+    display: flex;
+
+}
+
+.listImgs img{
+    width: 315px;
+    height: 315px;
+}
+
+.listImg1 h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.listImg2 h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.diven{
+    border: 1px solid grey;
+    width: 73%;
+    margin-top: -50px;
+    margin-left: 100px;
+
+}
+
+.container1 .title{
+    margin-left: 453px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+.footer{
+    display: flex;
+    padding: 70px 100px;
+    gap: 40px;
+}
+
+.footer .contact{
+    width: 100%;
+    max-width:360px;
+    height: 100%;
+    max-height: 313px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    flex-basis: 100%;
+}
+
+.footer .contact .title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #2D2D2D;
+}
+
+ .footer .contact .content{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+ .footer .contact .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+ .footer .contact .icon img{
+    width: 100%;
+    max-width: 36px;
+    height: 100%;
+    max-height: 40px;
+}
+
+ .footer .contact .icon img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.footer .formContact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-basis: 100%;
+}
+
+ .footer .formContact form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ .footer .formContact form input{
+    background-color: #F3F3F3;
+    border: transparent;
+    width: 100%;
+}
+
+.footer .formContact form textarea{
+    background-color: #F3F3F3;
+    border: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .formContact form #name{
+    padding: 21px 30px;
+}
+
+.footer .formContact form #email{
+    padding: 21px 30px;
+}
+
+.footer .formContact form #message{
+    padding: 21px 30px;
+}
+
+.footer .formContact form ::placeholder{
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.container .footer .formContact button{
+    padding: 25px 82px;
+    background-color: #2D2D2D;
+    color: white;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.container .footer .formContact button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .banner .Content {
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .container .banner .Content .content2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .container .banner .bannerImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner2, .banner3 {
+        flex-direction: column;
+        gap: 50px;
+        padding: 80px 20px;
+    }
+
+    .listImg, .listImg1, .listImg2 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .listImg img, .listImgs img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .footer .formContact {
+        width: 100%;
+    }
+
+    .container .footer .formContact button {
+        width: 100%;
+    }
+}
